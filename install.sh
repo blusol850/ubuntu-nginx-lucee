@@ -11,7 +11,7 @@ if [[ $LUCEE_LIGHT ]];then
 fi
 
 if [[ !$JVM_MAX_HEAP_SIZE ]];then
-    export JVM_MAX_HEAP_SIZE="512m"
+    export JVM_MAX_HEAP_SIZE="1024m"
 fi
 
 #set JVM_FILE and JVM_VERSION if you want to use an oracle JVM, instead of openjdk
